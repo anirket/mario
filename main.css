@@ -1,0 +1,78 @@
+html,body{
+height: 100%;
+width: 100%;
+overflow: hidden;
+margin: 0;
+
+
+}
+.SKY,.GRASS,.ROAD{
+    position: relative;
+}
+
+.SKY
+{
+   
+    height: 40%;
+    background: skyblue;
+   
+}
+
+.GRASS
+{
+    height: 30%;
+background : seagreen;
+
+
+}
+.ROAD
+{
+    height: 30%;
+background : dimgray;
+
+box-sizing: border-box;
+border-top: 10px solid grey;
+border-bottom: 10px solid grey;
+width:100%
+}
+
+.LINES{
+box-sizing: border-box;
+border : 5px dashed #fff;
+height: 0px;
+width: 100%;
+position: absolute;
+top: 35%;
+
+
+}
+
+.tree{
+   
+    height: 100%;
+    position: relative;
+    top:-30px;
+}
+.tree2{
+    height: 100%;
+    position: relative;
+    top:-60px;
+}
+.mario{
+    position: absolute;
+    top:-45px;
+    animation-name: drive;
+    animation-duration: 3s;
+
+
+}
+@keyframes drive{
+    from{transform: translateX(0px)}
+    to{transform: translateX( 1200px)}
+}
+.cloud{
+ height: 100%;
+    position: relative;
+    top:-30px;
+
+}
